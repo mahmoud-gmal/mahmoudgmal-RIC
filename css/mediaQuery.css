@@ -1,0 +1,120 @@
+/* Start navbar */
+@media (max-width: 991px) {
+  .navbar {
+    margin: 0 12px 0 0 !important;
+  }
+  .navbar .navbar-toggler {
+    margin-left: 12px;
+  }
+  .navbar .navbar-nav {
+    margin-right: 0;
+    padding-right: 6px;
+    margin-bottom: 20px;
+  }
+  .navbar .left-links {
+    justify-content: space-around;
+    display: flex;
+    margin-bottom: 15px;
+  }
+  .navbar .left-links a {
+    display: block;
+    margin-left: 0;
+  }
+}
+/* End navbar */
+/* Start our-features  */
+@media (max-width: 991px) {
+  .features .feat {
+    margin-bottom: 75px;
+  }
+
+  .features .feat .img-container {
+    box-shadow: 0 6px 5px 0px rgba(229, 229, 229, 0.85);
+    margin-top: -57px;
+    background-color: #FFF;
+  }
+
+  .features .feat h4::after {
+    content: none;
+  }
+
+  .features .feat a {
+    opacity: 1;
+  }
+}
+/* End our-features  */
+/* Start About-us */
+@media (min-width: 576px) and (max-width: 1199px) {
+  .about-us .outer .nav-tabs .nav-item:not(:first-child) .nav-link::after {
+    left: -1px;
+  }
+
+  .about-us .outer .nav-tabs .nav-link::before {
+    left: -8px;
+  }
+}
+@media (max-width: 575px) {
+  .about-us .outer .nav-tabs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 0;
+  }
+
+  .about-us .outer .nav-tabs .nav-link {
+    max-width: 121px;
+  }
+
+  .about-us .outer .nav-tabs .nav-item:not(:first-child) .nav-link::after {
+    left: -1px;
+  }
+
+  .about-us .outer .nav-tabs .nav-link::before {
+    left: -8px;
+  }
+
+  .about-us .outer .tab-content .tab-pane:nth-of-type(2),
+.about-us .outer .tab-content .tab-pane:nth-of-type(3) {
+    margin-top: 0px;
+  }
+}
+/* End About-us */
+/* Start shipping section  */
+@media (max-width: 830px) {
+  .shipping {
+    flex-direction: column;
+  }
+
+  .shipping .column {
+    padding-bottom: 21px;
+    padding-top: 21px;
+  }
+}
+@media (max-width: 354px) {
+  .shipping .column h2 {
+    font-size: 36px;
+  }
+}
+/* End shipping section  */
+/* Start Footer */
+@media (max-width: 767px) {
+  footer .send {
+    margin-bottom: 35px;
+  }
+
+  footer .social-media {
+    display: flex;
+    justify-content: center;
+  }
+
+  footer .social-media a {
+    margin-left: 8px;
+  }
+}
+/* End Footer */
+/* copyrights */
+@media (max-width: 767px) {
+  .copyrights p {
+    margin-bottom: 15px;
+  }
+}
